@@ -1,0 +1,4 @@
+Following details are used to create this demo app.
+
+Post : http://sinothomas.com/blog/index.php/2017/02/17/implementing-ionic-2-scrollable-tabs-directive/
+Components : https://market.ionicframework.com/plugins/ionic-2-scrollable-tabs

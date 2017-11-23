@@ -1,5 +1,10 @@
-<ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+<ion-tabs #ionTabs [scrollable-tabs]="ionTabs" tabsPlacement="top">
+  <ion-tab [root]="homePage" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="blogPage" tabTitle="Blogs" tabIcon="logo-wordpress"></ion-tab>
+  <ion-tab [root]="aboutPage" tabTitle="About" tabIcon="information-circle"></ion-tab>
+  <ion-tab [root]="contactPage" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+  <ion-tab [root]="newsPage" tabTitle="News" tabIcon="logo-designernews"></ion-tab>
+  <ion-tab [root]="imagesPage" tabTitle="Images" tabIcon="images"></ion-tab>
+  <ion-tab [root]="videoPage" tabTitle="Videos" tabIcon="videocam"></ion-tab>
+  <ion-tab [root]="settingsPage" tabTitle="Settings" tabIcon="construct"></ion-tab>
 </ion-tabs>

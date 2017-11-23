@@ -1,17 +1,29 @@
 import { Component } from '@angular/core';
 
+import { HomePage } from '../home/home';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
-import { HomePage } from '../home/home';
+import { NewsPage } from '../news/news';
+import { ImagesPage } from '../images/images';
+import { VideoPage } from '../video/video';
+import { BlogPage } from '../blog/blog';
+import { SettingsPage } from '../settings/settings';
+
 
 @Component({
   templateUrl: 'tabs.html'
 })
+
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
+  homePage = HomePage;
+  aboutPage = AboutPage;
+  contactPage = ContactPage;
+  newsPage = NewsPage;
+  imagesPage = ImagesPage;
+  videoPage = VideoPage;
+  blogPage = BlogPage;
+  settingsPage = SettingsPage;
 
   constructor() {
 
